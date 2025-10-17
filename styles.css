@@ -60,7 +60,7 @@ h1 {
   font-weight: normal;
 }
 .card {
-  width: 500px;
+  width: 400px;
   background-color: var(--container-color);
   position: absolute;
   padding: 2.8rem;
