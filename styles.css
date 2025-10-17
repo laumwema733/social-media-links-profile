@@ -90,6 +90,7 @@ h2 {
   background-color: var(--link-background-color);
   padding-block: 1rem;
   border-radius: 1.2rem;
+  letter-spacing: .7px;
   font-weight: bold;
   transition: all 0.4s ease-in-out;
 }
