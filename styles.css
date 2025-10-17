@@ -6,7 +6,9 @@ colors
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  font-size: 62.5%;
+}
 :root {
   --primary-color: #c4f82a;
   --background-color: #141414;
@@ -42,25 +44,27 @@ header img {
   margin-bottom: 2.4rem;
 }
 
-h1 {
-  font-size: 1.4rem;
+h2 {
+  font-size: 2.4rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   letter-spacing: 0.7px;
   text-transform: capitalize;
 }
 .located {
-  margin-bottom: 1.8rem;
-  font-size: 1rem;
+  margin-bottom:4rem;
+  font-size: 1.4rem;
   font-weight: bold;
   text-transform: capitalize;
   color: var(--primary-color);
 }
 .job {
   font-weight: normal;
+  font-size: 1.6rem;
 }
+/* card */
 .card {
-  width: 400px;
+  width: 40rem;
   background-color: var(--container-color);
   position: absolute;
   padding: 2.8rem;
@@ -73,12 +77,12 @@ h1 {
 }
 .links {
   list-style: none;
-  margin-top: 2.4rem;
+  margin-top: 3.6rem;
 }
 .item {
   text-decoration: none;
   display: block;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: var(--white-color);
   background-color: var(--link-background-color);
   padding-block: 1.2rem;
