@@ -1,11 +1,14 @@
 /* 
 colors
  */
+/* resetting the default margin and padding of HTML element */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* convert 16px to 10px which equal now to 1rem */
 html {
   font-size: 62.5%;
 }
